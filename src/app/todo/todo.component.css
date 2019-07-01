@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #efeefe;
+}
+
+td {
+    background-color: #fff;
+    border: .5px solid #ccc;
+}
+
+.th {
+    text-align: center;
+}
+
+.th span {
+    margin-left: 2em;
+}
+
+.tableContainer {
+    background-color: #eee;
+    border: .5px solid #ddd;
+    border-radius: 10px;
+    padding: 2.5em 0;
+    margin: 2em auto;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+}
+
+.tableCenter {
+    text-align: center;
+}
+
+.fa-check-circle:hover {
+    color: #2FA4E7;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.completed i {
+    color: #2FA4E7;
+}
+
+.todoList {
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
